@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      max-width: 90%;
+      width: 400px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 10px 0 20px;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #2c3e50;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: white;
+      background-color: #2c3e50;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #34495e;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- 👉 Replace the src URL with your real GitHub profile picture -->
+    <img src="https://github.com/yourusername.png" alt="My GitHub Profile Picture" class="profile-pic" />
+
+    <h1>Hello, world! 🌍</h1>
+    <p>This is my first website created using <strong>GitHub</strong>. I'm learning frontend development step by step.</p>
+
+    <!-- 👉 Replace the href URL with your real GitHub profile link -->
+    <a href="https://github.com/yourusername" class="btn" target="_blank">Visit My GitHub</a>
+  </div>
+
+  <footer>
+    &copy; 2025 | Made with 💻 by [P.PRASAD]
+  </footer>
+</body>
+</html>
